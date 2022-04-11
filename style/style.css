@@ -1,0 +1,34 @@
+:root{
+    --pink-neon:#ff4081;
+    --pink-light:#ff79b0;
+    --pink-dark:#c60055;
+    --preta: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: var(--preta);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--pink-light);
+}
