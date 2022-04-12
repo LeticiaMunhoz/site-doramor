@@ -11,9 +11,11 @@
     box-sizing: border-box;
 }
 
+/*Elementos Base*/
 body { 
     background-color: var(--preta);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    color: white;
 }
 
 header .container{
@@ -31,4 +33,23 @@ header nav a{
 
 header nav a:hover{
     color: var(--pink-light);
+}
+
+/*Filme Principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(#00000050,#00000050),url('/img/proposta1.jpg');
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .descricao{
+    margin-bottom: 90px;
+}
+.titulo {
+    font-size: 40px;
 }
