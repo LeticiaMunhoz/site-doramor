@@ -13,9 +13,17 @@
 
 /*Elementos Base*/
 body { 
-    background-color: var(--preta);
+    background-color: lightpink;
     font-family: 'Nunito', sans-serif;
     color: white;
+}
+
+header {
+    background-color: var(--preta)
+}
+
+header .logo {
+    padding: 10px;
 }
 
 header .container{
@@ -48,8 +56,53 @@ header nav a:hover{
     align-items: flex-start;
 }
 .filme-principal .descricao{
-    margin-bottom: 90px;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
+
 .titulo {
+    margin-top: 15%;
     font-size: 40px;
+    font-weight: bold;
 }
+
+.botao {
+    background-color: rgba(198, 0, 85, 0.50);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 100px;
+}
+
+.botao:hover{
+    background-color: rgb(255, 121, 176, 0.90);
+    color: black;
+    font-weight: bold;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.corrosel-filmes, .carrosel-filmes2{
+    margin-top: 5px;
+}
+
